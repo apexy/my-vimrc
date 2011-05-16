@@ -140,8 +140,8 @@ set vb t_vb= " Turn off the bell, this could be more annoying, but I'm not sure 
 
 " Mappings ********************************************************************
 " Professor VIM says '87% of users prefer jj over esc', jj abrams strongly disagrees
-imap jj <Esc>
-imap uu _
+"imap jj <Esc>
+"imap uu _
 "imap ,a @
 "map <Leader>e :e <C-R>=expand("%:p:h") . "/" <CR>
 
